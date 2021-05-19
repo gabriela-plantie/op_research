@@ -1,0 +1,7 @@
+**/*test*
+**/*.csv
+**/__pycache__
+**/*.pdf
+graph/**
+**/.ipynb_checkpoints
+.DS_Store
