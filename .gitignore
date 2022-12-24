@@ -1,7 +1,7 @@
-**/*test*
-**/*.csv
-**/__pycache__
-**/*.pdf
-graph/**
-**/.ipynb_checkpoints
-.DS_Store
+bin/*
+.Python
+.idea/
+etc/
+lib/
+pyvenv.cfg
+share/
