@@ -5,3 +5,4 @@ etc/
 lib/
 pyvenv.cfg
 share/
+.DS_Store
