@@ -6,3 +6,4 @@ lib/
 pyvenv.cfg
 share/
 .DS_Store
+**/__pycache__/*
