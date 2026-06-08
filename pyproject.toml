@@ -1,10 +1,14 @@
 [tool.poetry]
-package-mode = false
+package-mode = true
 name = "op-research"
 version = "0.1.0"
 description = ""
 authors = []
 readme = "README.md"
+
+packages = [
+  { include = "discrete_optmization", from = "src" }
+]
 
 [tool.poetry.dependencies]
 python = ">=3.12"
@@ -14,6 +18,7 @@ graphviz = "^0.21"
 pulp = "^3.3.2"
 cvxpy = "^1.9.1"
 matplotlib = "^3.10.9"
+pytest = "^9.0.3"
 
 [tool.poetry.group.dev.dependencies]
 ruff = "^0.15.15"
