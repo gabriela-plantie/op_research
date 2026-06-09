@@ -443,6 +443,25 @@ files = [
 ]
 
 [[package]]
+name = "dijkstar"
+version = "2.6.0"
+description = "Dijkstra/A*"
+optional = false
+python-versions = "*"
+groups = ["main"]
+markers = "sys_platform == \"win32\" or sys_platform == \"emscripten\" or sys_platform != \"win32\" and sys_platform != \"emscripten\""
+files = [
+    {file = "Dijkstar-2.6.0-py3-none-any.whl", hash = "sha256:49c7faad4273bc88609f688d5c00b80761d06793cb3285268cb385510c6a6e76"},
+    {file = "Dijkstar-2.6.0.tar.gz", hash = "sha256:ba9fa254c2ab9667a89dbaa9e322e59fc72f20fc6730ea6fe7be1f85e15a5bb7"},
+]
+
+[package.dependencies]
+six = "*"
+
+[package.extras]
+dev = ["coverage", "flake8", "tox"]
+
+[[package]]
 name = "distlib"
 version = "0.4.1"
 description = "Distribution utilities"
@@ -2568,4 +2587,4 @@ files = [
 [metadata]
 lock-version = "2.1"
 python-versions = ">=3.12"
-content-hash = "11a5231384f2abee4833d2cc872069c46aa0973eaa899204691053575b756eaa"
+content-hash = "6f2a1f03b985449d1a9bdbe30193aecb20b09a0555f98fbdd3d8e41c63a8ed06"

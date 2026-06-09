@@ -19,6 +19,7 @@ pulp = "^3.3.2"
 cvxpy = "^1.9.1"
 matplotlib = "^3.10.9"
 pytest = "^9.0.3"
+dijkstar = "^2.6.0"
 
 [tool.poetry.group.dev.dependencies]
 ruff = "^0.15.15"
